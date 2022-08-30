@@ -1,0 +1,66 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+/* navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 5%;
+}
+header h1{
+ font-size:45px;
+  }
+.navigation {
+  display: flex;
+  width: 65%;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation h3 {
+  font-weight: 520;
+  font-size: 22px;
+  cursor: pointer;
+  color: black;
+}
+.navigation h4 {
+  margin: 0;
+  font-weight: 520;
+  font-size: 22px;
+  cursor: pointer;
+  color: black;
+}
+.navigation h3:hover {
+  color: #FD725B;
+}
+.navigation h4:hover {
+  color: #FD725B;
+}
+sup{
+  font-size: 12px;
+  background-color: #FD725B;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 550px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .navigation { 
+    width: 100%;
+    justify-content: space-between;  
+  }
+  .navigation h3 {
+    font-size: 19px;
+  }
+  .navigation h3 {
+    font-size: 20px;
+  }
+  .navigation h4 {
+    font-size: 20px;
+  }
+}

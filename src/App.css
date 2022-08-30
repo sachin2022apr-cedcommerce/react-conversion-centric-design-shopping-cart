@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  min-height: 95vh;
+  position: relative;
+  padding-bottom: 5vh;
+}
+/* promotion */
+.promo {
+  width: 84%;
+  margin: 10px 5%;
+  padding: 0 3%;
+  background-color: #f0f0f3;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 8px;
+}
+.promo img {
+  width: 30%;
+}
+.content {
+  width: 45%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 3% 0;
+}
+.content p {
+  font-size: 30px;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 200;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  padding-right: 5%;
+  margin: 0;
+}
+.content button {
+  font-size: 20px;
+  font-family: "DynaPuff", cursive;
+  color: white;
+  padding: 10px 20px;
+  border: 3px solid transparent;
+  border-radius: 30px;
+}
+
+.Shop {
+  background-color: #FD725B;
+  transition: all 0.3s;
+}
+.Shop:hover {
+  background-color: white;
+  color: #FD725B;
+  border: 3px solid #FD725B;
+}
+.Learn {
+  background-color: #f03268;
+  transition: all 0.3s;
+}
+.Learn:hover {
+  background-color: white;
+  color: #f03268;
+  border: 3px solid #f03268;
+}
+/* categories lists */
+.category {
+  width: 94%;
+  margin: 1.5% 0%;
+  padding: 3% 3% 1%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.category-product {
+  width: 290px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 5%;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  text-align: left;
+}
+.category-product:hover > img {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+.category-product h3 {
+  font-size: 21px;
+}
+.category-product p {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  cursor: pointer;
+}
+.category-product p:hover {
+  text-decoration: underline;
+}
+.category-product img {
+  width: 55%;
+  transition: all 0.5s ease-in-out;
+}
+/* reviews */
+.reviews {
+  width: 94%;
+  margin: 1.5% 0%;
+  padding: 0.5% 3% 3%;
+}
+
+.UserDetils {
+  margin-top: 3%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.userCard {
+  margin-top: 10px;
+  width: 220px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 8px;
+  margin-bottom: 2%;
+}
+.cardTop {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  padding-top: 40px;
+  height: 50px;
+}
+.cardImage {
+  margin-top: -20%;
+}
+.userCard p {
+  font-size: 18px;
+  padding: 5px 15px 15px;
+}
+.cardImage img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* footer */
+footer {
+  width: 91%;
+  margin: 5% 0 0 2.5%;
+  background-color: #f0f0f3;
+  border-radius: 18px 18px 0 0;
+  padding: 0.5% 2%;
+  position: absolute;
+  bottom: 0;
+}
+
+.fa-instagram {
+  margin: 5px;
+  background: -webkit-linear-gradient(#df02d6, #f6bc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fa-facebook-f {
+  margin: 5px;
+  color: #4867aa;
+}
+.fa-youtube {
+  margin: 5px;
+  color: #fe0000;
+}
+.other-content h3 {
+  width: 75%;
+  margin: 20px auto;
+  font-weight: 500;
+  font-family: "Satisfy", cursive;
+  font-size: 23px;
+}
